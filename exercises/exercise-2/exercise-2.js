@@ -70,3 +70,29 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+
+
+function introducePerson(objectArray) {
+  for (let h of objectArray) 
+  {
+     if (h.house === "Gryffindor") 
+     {
+        let {firstName,lastName} = h;
+        console.log(firstName, lastName);
+     }
+  }
+}
+introducePerson(hogwarts);
+console.log("***********************************************");
+
+function HasPet(objectArray) {
+  for (let h of objectArray) {
+     if (h.pet == null) 
+       continue;   
+    let {firstName,lastName} = h;
+    console.log(firstName, lastName); 
+  }
+}
+
+HasPet(hogwarts);
