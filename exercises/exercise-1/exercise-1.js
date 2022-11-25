@@ -5,8 +5,8 @@ const personOne = {
 };
 
 
-function introduceYourself(___________________________) {
-  let{name,age,favouriteFood}=personOne;
+function introduceYourself(_{name,age,favouriteFood}) {
+ 
   console.log(
     `Hello, my name is ${name}. I am ${age} years old and my favourite food is ${favouriteFood}.`
   );
